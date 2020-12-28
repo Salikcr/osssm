@@ -1,8 +1,8 @@
 ## Backend 
 ####User Authentication
 Api Endpoints:- 
-1. /login =>  _post req_ - accept username, password and authenticate 
-2. /signup => _post req_ - accept username, password, emailId,(required) ; CF, CC, GFG, LC, other handles (can be null)
+1. users/login =>  _post req_ - accept username, password and authenticate 
+2. users/signup => _post req_ - accept username, password, emailId,(required) ; CF, CC, GFG, LC, other handles (can be null)
  
 DB :- 
 Users table to store user info (username, email, password, userId, handles(subfields- CF, CC, GFG, LC, other))
